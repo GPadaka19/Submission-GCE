@@ -1,0 +1,113 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header, main, footer {
+        margin: 0;
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+
+    header {
+        border-bottom: 4px solid #333;
+        text-align: right;
+    }
+
+    header a {
+        margin: 15px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gray-text {
+        color: gray;
+    }
+
+    .black-text {
+        color: black;
+        font-weight: bold;
+    }
+
+    .personal-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-info {
+        text-align: right;
+    }
+    
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+    
+    .left-column, .right-column {
+        width: 50%;
+    }
+
+    #content {
+        flex: 3;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        background-color: #f0f0f0;
+    }
+
+    #content article {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    aside img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    aside img:hover {
+        transform: scale(1.1);
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        border-top: 4px solid #333;
+    }
+
+    .contact-info img {
+        width: 30px; 
+        height: 30px; 
+        margin-top: 1px;
+    }
+
+    .social-icon {
+        width: 20px; 
+        height: 20px; 
+        margin-top: 1px;
+    }
